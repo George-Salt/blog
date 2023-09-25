@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+
+:root {
+  --bgc: #ff6879;
+}
+
+@media screen and (min-width: 1240px) {
+  body {
+    margin: 0;
+    font-family: "Jost", sans-serif;
+    background-color: black;
+    color: white;
+  }
+
+  body::-webkit-scrollbar {
+    width: 0.5vw;
+  }
+
+  body::-webkit-scrollbar-track {
+    background-color: black;
+    width: 0.5vw;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--bgc);
+  }
+
+
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1.5px solid grey;
+  }
+
+  main > .content {
+    width: 1200px;
+    padding-bottom: 20px;
+  }
+
+
+  main .navigation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid var(--bgc);
+  }
+
+  main .navigation a {
+    color: white;
+  }
+
+  main .navigation .slash {
+    margin: auto 5px;
+    color: var(--bgc);
+  }
+
+
+  main .topic {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 800;
+    border-radius: 10px;
+  }
+
+
+  main .desc {
+    padding-left: 10px;
+    border-left: 1.5px solid var(--bgc);
+  }
+
+  main .desc > p {
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  main .content > p {
+    font-size: 20px;
+  }
+
+  main .content > p .badge {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    color: var(--bgc);
+  }
+
+  main .content > h2 {
+    color: var(--bgc);
+  }
+
+  main .content > img {
+    width: 350px;
+    border-radius: 10px;
+  }
+
+  main .content > pre {
+    border: 1.5px solid var(--bgc);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #1b1b1b;
+    overflow-x: auto;
+  }
+
+  pre::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  pre::-webkit-scrollbar-track {
+    width: 10px;
+  }
+
+  pre::-webkit-scrollbar-thumb {
+    background-color: var(--bgc);
+    border-radius: 10px;
+  }
+
+  main .content > pre .code {
+    font-family: monospace;
+  }
+
+  main .content > pre .line {
+    display: flex;
+    font-size: 18px;
+  }
+
+  main .content > pre .tag {
+    color: var(--bgc);
+  }
+
+  main .content > pre .comment {
+    color: grey;
+  }
+
+  main .content > pre .parameter {
+    color: #57abff;
+  }
+
+  main .content > pre .value {
+    color: #ffc400;
+  }
+}
+
+@media screen and (max-width: 1240px) and (min-width: 730px) {
+  body {
+    margin: 0;
+    font-family: "Jost", sans-serif;
+    background-color: black;
+    color: white;
+  }
+
+  body::-webkit-scrollbar {
+    width: 0.5vw;
+  }
+
+  body::-webkit-scrollbar-track {
+    background-color: black;
+    width: 0.5vw;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--bgc);
+  }
+
+
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1.5px solid grey;
+  }
+
+  main > .content {
+    width: 95vw;
+    padding-bottom: 20px;
+  }
+
+
+  main .navigation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid var(--bgc);
+  }
+
+  main .navigation a {
+    color: white;
+  }
+
+  main .navigation .slash {
+    margin: auto 5px;
+    color: var(--bgc);
+  }
+
+
+  main .topic {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 800;
+    border-radius: 10px;
+  }
+
+
+  main .desc {
+    padding-left: 10px;
+    border-left: 1.5px solid var(--bgc);
+  }
+
+  main .desc > p {
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  main .content > p {
+    font-size: 20px;
+  }
+
+  main .content > p .badge {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    color: var(--bgc);
+  }
+
+  main .content > h2 {
+    color: var(--bgc);
+  }
+
+  main .content > img {
+    width: 350px;
+    border-radius: 10px;
+  }
+
+  main .content > pre {
+    border: 1.5px solid var(--bgc);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #1b1b1b;
+    overflow-x: auto;
+  }
+
+  pre::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  pre::-webkit-scrollbar-track {
+    width: 10px;
+  }
+
+  pre::-webkit-scrollbar-thumb {
+    background-color: var(--bgc);
+    border-radius: 10px;
+  }
+
+  main .content > pre .code {
+    font-family: monospace;
+  }
+
+  main .content > pre .line {
+    display: flex;
+    font-size: 18px;
+  }
+
+  main .content > pre .tag {
+    color: var(--bgc);
+  }
+
+  main .content > pre .comment {
+    color: grey;
+  }
+
+  main .content > pre .parameter {
+    color: #57abff;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  body {
+    margin: 0;
+    font-family: "Jost", sans-serif;
+    background-color: black;
+    color: white;
+  }
+
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1.5px solid grey;
+  }
+
+  main > .content {
+    width: 95vw;
+    padding-bottom: 20px;
+  }
+
+
+  main .navigation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1.5px solid var(--bgc);
+  }
+
+  main .navigation a {
+    color: white;
+  }
+
+  main .navigation .slash {
+    margin: auto 5px;
+    color: var(--bgc);
+  }
+
+
+  main .topic {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 800;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+
+  main .desc {
+    padding-left: 10px;
+    border-left: 1.5px solid var(--bgc);
+  }
+
+  main .desc > p {
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  main .content > p {
+    font-size: 20px;
+  }
+
+  main .content > h2 {
+    color: var(--bgc);
+  }
+
+  main .content > img {
+    width: 95vw;
+    max-height: 300px;
+    border-radius: 10px;
+  }
+
+  main .content > pre {
+    border: 1.5px solid var(--bgc);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #1b1b1b;
+    overflow-x: auto;
+  }
+
+  main .content > pre .code {
+    font-family: monospace;
+  }
+
+  main .content > pre .line {
+    display: flex;
+    font-size: 18px;
+  }
+
+  main .content > pre .tag {
+    color: var(--bgc);
+  }
+
+  main .content > pre .comment {
+    color: grey;
+  }
+
+  main .content > pre .parameter {
+    color: #57abff;
+  }
+
+  main .content > pre .value {
+    color: #ffc400;
+  }
+}

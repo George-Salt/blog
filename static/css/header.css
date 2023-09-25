@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+
+@media screen and (min-width:730px) {
+  header {
+    font-family: "Jost", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1.5px solid grey;
+  }
+
+  header > .content {
+    height: 80px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header .fullname {
+    display: flex;
+    align-items: center;
+  }
+
+  header .fullname > .paragraph-name {
+    font-family: "Bebas Neue", sans-serif;
+    color: #ff6879;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 5px;
+    transition: all 0.3s;
+  }
+
+  header .fullname > .site-name:hover + .paragraph-name {
+    padding-left: 5px;
+  }
+
+  header .site-name {
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 5px;
+    padding-bottom: 0;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+
+  header .site-name:hover {
+    color: black;
+    font-weight: 800;
+    background-color: #ff6879;
+  }
+
+  header .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header .links .blog {
+    color: #ff6879;
+  }
+
+  header .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: auto 5px;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+
+  header .links a:hover {
+    color: black;
+    font-weight: 800;
+    padding: 5px;
+    background-color: #ff6879;
+  }
+
+  header .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65px;
+  }
+
+  header .whatsapp,
+  header .telegram {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    transition: all 0.3s;
+  }
+
+  header .whatsapp:hover,
+  header .telegram:hover {
+    background-color: #ff6879;
+  }
+
+  header .telegram > .logo {
+    background-image: url("../imgs/telegram.png");
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+  }
+
+  header .whatsapp > .logo {
+    background-image: url("../imgs/whatsapp.png");
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 1240px) and (min-width: 730px) {
+  header {
+    font-family: "Jost", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1.5px solid grey;
+  }
+
+  header > .content {
+    height: 80px;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header .fullname {
+    display: flex;
+    align-items: center;
+  }
+
+  header .fullname > .paragraph-name {
+    font-family: "Bebas Neue", sans-serif;
+    color: #ff6879;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 5px;
+    transition: all 0.3s;
+  }
+
+  header .fullname > .site-name:hover + .paragraph-name {
+    padding-left: 5px;
+  }
+
+  header .site-name {
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 5px;
+    padding-bottom: 0;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+
+  header .site-name:hover {
+    color: black;
+    font-weight: 800;
+    background-color: #ff6879;
+  }
+
+  header .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header .links .blog {
+    color: #ff6879;
+  }
+
+  header .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: auto 5px;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+
+  header .links a:hover {
+    color: black;
+    font-weight: 800;
+    padding: 5px;
+    background-color: #ff6879;
+  }
+
+  header .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65px;
+  }
+
+  header .whatsapp,
+  header .telegram {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    transition: all 0.3s;
+  }
+
+  header .whatsapp:hover,
+  header .telegram:hover {
+    background-color: #ff6879;
+  }
+
+  header .telegram > .logo {
+    background-image: url("../imgs/telegram.png");
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+  }
+
+  header .whatsapp > .logo {
+    background-image: url("../imgs/whatsapp.png");
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+  }
+}
+
+@media screen and (max-width:730px) {
+  header {
+    font-family: "Jost", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1.5px solid grey;
+  }
+
+  header > .content {
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header .fullname {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  header .fullname > .paragraph-name {
+    font-family: "Bebas Neue", sans-serif;
+    color: #ff6879;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 5px;
+    transition: all 0.3s;
+    margin: 0;
+  }
+
+  header .fullname > .site-name:hover + .paragraph-name {
+    padding-left: 5px;
+  }
+
+  header .site-name {
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 5px;
+    padding-bottom: 0;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+
+  header .site-name:hover {
+    color: black;
+    font-weight: 800;
+    background-color: #ff6879;
+  }
+
+  header .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  header .links .blog {
+    color: #ff6879;
+  }
+
+  header .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: auto 5px;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+
+  header .links a:hover {
+    color: black;
+    font-weight: 800;
+    padding: 5px;
+    background-color: #ff6879;
+  }
+
+  header .buttons {
+    display: none;
+  }
+}

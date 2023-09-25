@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <link type="image/png" rel="icon" href="static/imgs/favicon.png">
+
+  <link href="static/css/header.css" rel="stylesheet">
+  <link href="static/css/main.css" rel="stylesheet">
+  <link href="static/css/footer.css" rel="stylesheet">
+
+  <title>George Salt > Блог</title>
+</head>
+
+<body>
+  <header>
+    <div class="content">
+      <div class="fullname">
+        <a href="https://george-salt.github.io/home/" class="site-name">George Salt</a>
+        <p class="paragraph-name">Blog</p>
+      </div>
+
+      <div class="links">
+        <a href="" class="blog">Блог</a>
+        <a href="" class="portfolio">Портфолио</a>
+        <a href="" class="games">Приложения</a>
+      </div>
+
+      <div class="buttons">
+        <a href="https://t.me/george20097" class="telegram">
+          <div class="logo"></div>
+        </a>
+        <a href="https://wa.me/89898303624" class="whatsapp">
+          <div class="logo"></div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="cover">
+      <div class="content">
+        <div class="blog-cover">
+          <p class="blog-name">George Salt Blog</p>
+          <h1>Авторский блог по веб-верстке!</h1>
+          <p>Самые полезные статьи для начинающих программистов и уже знакомых с версткой!</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+      <div class="content">
+        <div class="news-column">
+          <div class="filter">
+            <h1 class="recent active" onclick="changeToRecent()">Новые</h1>
+            <h1 class="popular inactive" onclick="changeToPopular()">Популярные</h1>
+          </div>
+
+          <div class="recent-news">
+            <div class="new">
+              <img src="static/imgs/js.png">
+              <div class="texts">
+                <a href="articles/about_js.html" class="topic">Что такое JavaScript?</a>
+                <p class="langs">⋯ㅤJavaScript</p>
+                <p class="time">≡ ㅤ5 минут</p>
+              </div>
+            </div>
+
+            <div class="new">
+              <img src="static/imgs/html.png">
+              <div class="texts">
+                <a href="articles/about_html.html" class="topic">Что такое HTML?</a>
+                <p class="langs">⋯ㅤHTML</p>
+                <p class="time">≡ ㅤ5 минут</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="popular-news">
+            <div class="new">
+              <img src="static/imgs/html.png">
+              <div class="texts">
+                <a href="articles/about_html.html" class="topic">Что такое HTML?</a>
+                <p class="langs">⋯ㅤHTML</p>
+                <p class="time">≡ ㅤ5 минут</p>
+              </div>
+            </div>
+
+            <div class="new">
+              <img src="static/imgs/js.png">
+              <div class="texts">
+                <a href="articles/about_js.html" class="topic">Что такое JavaScript?</a>
+                <p class="langs">⋯ㅤJavaScript</p>
+                <p class="time">≡ ㅤ5 минут</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rightside"></div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="content">
+        <h1>Категории</h1>
+        <div class="categories-row">
+          <a href="categories/html.html">
+            <div class="category html-category">
+              <img src="static/imgs/html.png">
+              <h2 class="name">HTML</h2>
+            </div>
+          </a>
+
+          <a href="categories/javascript.html">
+            <div class="category js-category">
+              <img src="static/imgs/js.png">
+              <h2 class="name">JavaScript</h2>
+            </div>
+          </a>
+
+          <a href="categories/css.html">
+            <div class="category css-category">
+              <img src="static/imgs/css.png">
+              <h2 class="name">CSS</h2>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="content">
+      <p class="name">George Salt</p>
+      <p class="year">2021 - 2023</p>
+    </div>
+  </footer>
+
+  <script src="static/js/filter.js"></script>
+</body>
+
+</html>
